@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RunSettings>
+	<TestRunParameters>
+		<Parameter name ="eEmpty" value ="" />
+		<Parameter name ="space" value ="a @gmail.com" />
+		<Parameter name ="noat"   value ="agmail.com"/>
+		<Parameter name ="nodot" value ="agmailcom"/>
+		<Parameter name ="userNameGreaterThan100" 
+				   value ="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@.gmail.com"/>
+		<Parameter name ="userNameLessThan1" value ="@gmail.com" />
+		<Parameter name ="domainNameGreaterThan100" 
+				   value ="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@gmail.com" />
+		<Parameter name ="domainNameLessThan3" value ="a@gm.com" />
+		<Parameter name ="charInUserNameNotLetterOrDigit" value ="a!@gmail.com" />
+		<Parameter name ="charInDomainNameNotLetterOrDigit" value ="a@gma!l.com" />
+		<Parameter name ="validEmail" value ="a@gmail.com"/>
+	</TestRunParameters>
+</RunSettings>
