@@ -13,6 +13,35 @@
 		<Parameter name ="domainNameLessThan3" value ="a@gm.com" />
 		<Parameter name ="charInUserNameNotLetterOrDigit" value ="a!@gmail.com" />
 		<Parameter name ="charInDomainNameNotLetterOrDigit" value ="a@gma!l.com" />
-		<Parameter name ="validEmail" value ="a@gmail.com"/>
+		<!--valid emails-->
+		<Parameter name ="notEmpty" value ="a@gmail.com" />
+		<Parameter name ="noSpace" value ="a@gmail.com"/>
+		<Parameter name ="at" value ="a@gmail.com"/>
+		<Parameter name ="dot" value ="a@gmail.com"/>
+		<Parameter name ="userNameLessThan100" value ="a@gmail.com"/>
+		<Parameter name ="userNameGreaterThan0" value ="a@gmail.com"/>
+		<Parameter name ="domainLessThan100" value ="a@gmail.com"/>
+		<Parameter name ="domainGreaterThan2" value ="a@gmail.com"/>
+		<Parameter name ="charInUserNameIsLetterOrDigit" value ="a1@gmail.com" />
+		<Parameter name ="charInDomainNameIsLetterOrDigit" value ="a@gmail.com" />
 	</TestRunParameters>
+	<LoggerRunSettings>
+		<Loggers>
+			<Logger friendlyName="console" enabled="True">
+				<Configuration>
+					<Verbosity>quiet</Verbosity>
+				</Configuration>
+			</Logger>
+			<Logger friendlyName="trx" enabled="True">
+				<Configuration>
+					<LogFileName>EmailValidatorTests.trx</LogFileName>
+				</Configuration>
+			</Logger>
+			<Logger friendlyName="html" enabled="True">
+				<Configuration>
+					<LogFileName>EmailValidatorTests.html</LogFileName>
+				</Configuration>
+			</Logger>
+		</Loggers>
+	</LoggerRunSettings>
 </RunSettings>

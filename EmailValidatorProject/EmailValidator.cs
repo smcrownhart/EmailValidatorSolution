@@ -18,7 +18,7 @@ namespace EmailValidatorProject
                 return false;
             }
 
-            if(email.Contains(" "))
+            if (email.Contains(" "))
             {
                 return false;
             }
@@ -40,6 +40,8 @@ namespace EmailValidatorProject
             {
                 return false;
             }
+
+            if(userName.Length < 100) 
             
             if (userName.Length < 1)
             { 
