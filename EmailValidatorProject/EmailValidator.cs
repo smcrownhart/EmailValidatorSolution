@@ -23,12 +23,12 @@ namespace EmailValidatorProject
                 return false;
             }
 
-            if (!email.Contains("@")) 
+            if (!email.Contains('@')) 
             {
                 return false;
             }
 
-            if (!email.Contains(".")) 
+            if (!email.Contains('.')) 
             {
                 return false;
             }

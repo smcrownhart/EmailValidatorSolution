@@ -10,9 +10,10 @@ namespace EmailValidatorTests
     {
         public TestContext? TestContext { get; set; }
 
+        
         public string getTestString(string testEmail)
         {
-            return TestContext.Properties[testEmail]?.ToString();
+            return TestContext.Properties[testEmail].ToString();
         }
     }
 }

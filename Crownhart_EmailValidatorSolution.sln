@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailValidatorProject", "EmailValidatorProject\EmailValidatorProject.csproj", "{B4B412E3-1E03-4A4A-9304-1BA311F23DFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crownhart_EmailValidatorProject", "EmailValidatorProject\Crownhart_EmailValidatorProject.csproj", "{B4B412E3-1E03-4A4A-9304-1BA311F23DFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailValidatorTests", "EmailValidatorTests\EmailValidatorTests.csproj", "{59CC5439-18E5-48C4-B48F-AA3093E5A998}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crownhart_EmailValidatorTests", "EmailValidatorTests\Crownhart_EmailValidatorTests.csproj", "{59CC5439-18E5-48C4-B48F-AA3093E5A998}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
